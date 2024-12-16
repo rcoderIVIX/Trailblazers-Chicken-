@@ -14,7 +14,6 @@ let contactButton = document.querySelector('.contact')
 
 let content = document.querySelector("#content");
 
-contact();
 
 homeButton.addEventListener("click", ()=>{
 
@@ -41,6 +40,8 @@ contactButton.addEventListener('click', ()=>{
         contact();
 })
 
+
+chickenShop();
 
 
 
