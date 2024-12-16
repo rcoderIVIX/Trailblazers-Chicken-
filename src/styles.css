@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    font-family: "Roboto";
+    margin: 0;
+}
+
+body{
+    background-color: whitesmoke;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+    align-items: center;
+}
+
+.nav-right{
+    display: flex;
+    gap: 35px;
+    
+}
+
+.nav-left{
+    font-weight:900;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+}
+
+#content{
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.prompt{
+background-color: red;
+color: whitesmoke;
+font-weight: 800;
+width: 100vw;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+border-radius: 10px;
+word-spacing: 3px;
+letter-spacing: 1px;
+font-size: 40px;
+}
+
+.chickenz{
+    display: flex;
+    font-size: 20px;
+    font-weight: normal;
+    align-items: center;
+    gap: 100px;
+}
+
+.blurb{
+    padding:300px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card{
+    width: 300px;
+    line-height: 1.6;
+    padding: 50px;
+    background-color: white;
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-header{
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    background-color: red;
+    color: whitesmoke;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.home, .menu, .contact{
+    cursor: pointer;
+}
+
+
+.ida{
+    font-size: 20px;
+}
